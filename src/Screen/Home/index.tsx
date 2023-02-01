@@ -2,20 +2,11 @@ import { View, Text, TextInput, TouchableOpacity, FlatList, Alert } from 'react-
 import { styles } from './styles';
 
 import { Participant } from '../../components/Participant';
-
-const participants = [
-  'Paulo',
-  'Ricardo',
-  'Caldi',
-  'Loiro',
-  'Tico',
-  'Nega',
-  'Jacu',
-  'Mila',
-  'Frajola',
-];
+import { useState } from 'react';
 
 export default function Home() {
+  const [participants, setParticipants] = useState(['Ricardo']);
+
   function handleParticipantAdd() {
     if (participants.includes('Paulo')) {
       return Alert.alert(
@@ -24,7 +15,7 @@ export default function Home() {
       );
     }
 
-    console.log('Voce adicionou um participant');
+    setParticipants((prevState) => [...prevState, 'Loiro']);
   }
   function handleRemoveParticipant(name: string) {
     Alert.alert('Remover', `Deseja realmente remover o participante ${name}?`, [
