@@ -9,7 +9,7 @@
 <h1 align="center">:file_cabinet: ImHere</h1>  
 
 <p align="center">
-  <img src="src/assets/to-readme/imhere.gif"/>
+  <img height="600" src="src/assets/to-readme/imhere.gif"/>
 </p>
                                                              
 
