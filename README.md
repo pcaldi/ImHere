@@ -15,7 +15,7 @@
 
 
 ## :memo: Projeto
-Projeto de um aplicativo para adiconar e remover participantes em uma lista de presença. 
+Projeto de um aplicativo para adicionar e remover participantes em uma lista de presença. 
 
 
 ## :wrench: Tecnologias utilizadas
